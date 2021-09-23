@@ -1,4 +1,4 @@
-# Programmers Autonomous-Driving Dev course. Lidar SLAM using Cartographer
+# Programmers Autonomous-Driving Dev course. LiDAR SLAM using Cartographer
 
 ## Video
 ---
