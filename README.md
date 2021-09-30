@@ -3,7 +3,9 @@
 ## Video
 ---
 - Mapping
+[![Mapping](https://img.youtube.com/vi/aeOpy2w_yeo/0.jpg)](https://youtu.be/aeOpy2w_yeo) 
 - Localization
+[![Localization](https://img.youtube.com/vi/kGeYPDi1b3U/0.jpg)](https://youtu.be/kGeYPDi1b3U) 
 
 ## Goal
 ---
