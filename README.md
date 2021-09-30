@@ -1,20 +1,17 @@
 # Programmers Autonomous-Driving Dev course. LiDAR SLAM using Cartographer
 
 ## Video
----
 - Mapping  
 [![Mapping](https://img.youtube.com/vi/aeOpy2w_yeo/0.jpg)](https://youtu.be/aeOpy2w_yeo) 
 - Localization  
 [![Localization](https://img.youtube.com/vi/kGeYPDi1b3U/0.jpg)](https://youtu.be/kGeYPDi1b3U) 
 
 ## Goal
----
 - Xycar로 Online / Offline SLAM
 - Online SLAM: 실제 주행하면서 그와 동시에 map을 제작하고 현재 위치를 파악하는 SLAM
 - Offline SLAM: 주행 데이터를 rosbag(ROS 데이터 수집 도구)를 활용하여 모든 데이터를 모은 후 map을 제작 및 현재 위치를 파악하는 SLAM
 
 ## Environment
----
 - Ubuntu 18.04
 - ROS Melodic
 - Xycar Model D
@@ -44,7 +41,6 @@ $ catkin_make_isolated --install --use-ninja --install-space /opt/ros/melodic/
 ~~~
 
 ## Structure
----
 ~~~
 xycar_slam
   └─ bag                                  # LiDAR topic을 bag으로 저장한 파일을 모아놓은 폴더
@@ -63,7 +59,6 @@ xycar_slam
 ~~~
 
 ## Usage
----
 1. Online Mapping
 ~~~bash
 $ roslaunch xycar_slam localiztion.launch
@@ -85,17 +80,14 @@ $ roslaunch xycar_slam offline_mapping.launch
 ~~~
 
 ## Try
----
 - mapping lua 파일 조정
 - localization lua 파일 조정
 
 
 ## Limitations
----
 - 처음 lua 파일을 설정할 때 어떤 파라미터가 정확히 어떤 값인지 제대로 알지 못하고 임의로 값을 조정함.
 - mapping이 제대로 되지 않아서 천천히 주행해야만 Online localizition이 수행됨.
 - Online localization이 잘되면 path planning 기술을 사용해서 실제 주행까지 하고 싶었지만 정확하지 못함
 
 ## What I've learned
----
 - Google Cartographer를 사용해서 LiDAR SLAM을 Online과 Offline에서 수행해봄
